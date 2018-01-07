@@ -25,3 +25,17 @@ print(mylist + stringlist)
 
 # multiply list
 print(stringlist * 3)
+
+# tuple
+t1 = (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55)
+print(t1)
+print(len(t1))
+
+# map
+age_map = {'Nathan': 12, 'Maddie': 15, 'Yubo': 46}
+age_map['Sharon'] = 43
+age_map['Xunpei'] = 81
+age_map['Linzhu'] = 74
+print(age_map['Maddie'])
+print(age_map['Sharon'])
+print(age_map)
